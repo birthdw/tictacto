@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="0.MainGame">
+      <UniqueIdentifier>{6c6d5882-702c-4bd0-8ceb-6c40e869b9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1.Canvas">
+      <UniqueIdentifier>{3ab8cc13-3302-41d5-832c-d7d260091be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8.Headers">
+      <UniqueIdentifier>{77777b07-1ca5-44dd-9934-3dd70e197bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1.Mouse">
+      <UniqueIdentifier>{33c3e89c-5a76-4893-9d6a-cb9debd172e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{0c7dbc1c-257a-41e3-8338-4156b1b4fa1d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern.h">
+      <Filter>8.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>8.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>0.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>8.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>8.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>1.Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>1.Canvas</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>0.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>1.Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>1.Canvas</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
